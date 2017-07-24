@@ -1,0 +1,64 @@
+
+# IDEs and editors
+/**/.idea
+/**/.project
+/**/.classpath
+/**/.c9/
+/**/*.launch
+/**/.settings/
+/**/*.sublime-workspace
+/**/.idea/
+/**/.seed
+
+# IDE - VSCode
+/**/.code/
+#/**/.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/**/.sass-cache
+/**/connect.lock
+
+# e2e
+/**/e2e/*.js
+/**/e2e/*.map 
+
+# System Files
+/**/tmp
+/**/out-tsc
+/**/.DS_Store/
+/**/Thumbs.db
+
+
+/**/typings/
+/**/node_modules/
+/**/bower_components/
+/**/data/
+/**/dist/
+/**/build/
+/**/target/
+/**/kbd/
+
+/**/.log
+/**/.logs
+/**/*.log
+/**/*.logs
+
+/**/.csv
+/**/.dat
+/**/.out
+/**/.pid
+/**/.gz
+/**/.rar
+/**/.zip
+/**/pids
+/**/results
+
+/**/npm-debug.log
+/**/.brackets.json
+
+/todo

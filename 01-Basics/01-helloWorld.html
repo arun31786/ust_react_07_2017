@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>React: HelloWorld</title>
+    <script src="./lib/react.js"></script>
+    <style>
+        .panel-title{
+            background: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="example">
+        <!--<p class="panel-title">Hello World</p>-->
+    </div>
+
+    <script>
+        console.log(React);
+        var reactEl = React.createElement("p", {className:"panel-title"}, "Hello World");
+        console.log(reactEl);
+        // document.getElementById("example").innerHTML = reactEl.props.children;
+        React.render(reactEl, document.getElementById("example"))
+    </script>
+</body>
+</html>

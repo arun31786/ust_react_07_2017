@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>React: Props demo</title>
+    <script src="./lib/react.js"></script>
+    <script src="./lib/JSXTransformer.js"></script>
+    <style>
+        .container{
+            font-size: 20px;
+            color: cornflowerblue;
+            border: 2px solid black;
+            border-radius: 25px 25px;
+        }
+    </style>
+</head>
+<body>
+    <div id="example"></div>
+
+    <script type="text/jsx">
+        // 1. Define a class
+        var CommentBox = React.createClass({
+            render: function(){
+                console.log(this.props);
+                return (
+                    <div>
+                        <h1 className={this.props.class}>React Class</h1>
+                        <p>{this.props.comment}</p>
+                    </div>
+                )
+            }
+        });
+
+        React.render(<CommentBox comment="First comment" class="container"/>, document.getElementById("example"))
+        
+    </script>
+</body>
+</html>

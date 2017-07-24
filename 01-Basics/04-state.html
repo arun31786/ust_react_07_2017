@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>React: State demo</title>
+    <script src="./lib/react.js"></script>
+    <script src="./lib/JSXTransformer.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <div id="example"></div>
+
+    <script type="text/jsx">
+        var FlipCart = React.createClass({
+            getInitialState: function(){
+                return {
+                    available: 6,
+                    item: "Laptops"
+                }
+            },
+            render: function(){
+                return(
+                    <div>
+                        We have {this.state.available} {this.state.item} in our stock.<br/>
+            <button onClick={this.buyItem}>Buy</button> | <button onClick={this.returnItem}>Return</button>
+                    </div>
+                )
+            },
+            returnItem:function(){
+                if(this.state.available<6){
+                    this.setState({available: this.state.available + 1})
+                } else { alert("You have not purchased any item yet"); }
+            },
+            buyItem: function(){
+                // rerender the dom changes
+    if(this.state.available>0){
+                this.setState({available: this.state.available - 1})
+    }
+
+            }
+        });
+        var options = {}
+        var flipcart = React.createElement(FlipCart, options);
+        React.render(flipcart, document.getElementById("example"));
+    </script>
+</body>
+</html>

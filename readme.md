@@ -4,6 +4,11 @@ Basics of react
 	state & props
 npm
 	subset of node
+
+babel - jsxTransformer
 Webpack
 react cli
 	create-react-app
+
+	eject
+

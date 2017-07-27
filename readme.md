@@ -1,25 +1,34 @@
 #Coverage
 >##Day1
->Basics of react
->	without jsx
->	with jsx
->	Render component
->	state & props
->npm
->	Package/module manager
->	subset of node
+>1. Basics of react
+>	1. without jsx
+>	2. with jsx
+>	3. Render component
+>	4. state & props
+>2. npm
+>	1. Package/module manager
+>	2. subset of node
 >
 >#Day2
->babel - (jsxTransformer is deprecated now)
->Webpack
->react cli
->	create-react-app
->	eject
+>3. babel - (jsxTransformer is deprecated now)
+>4. Webpack
+>5. react cli
+>	1. npm install -g create-react-app
+>	2. create-react-app project-name
+>	3. cd project-name
+>	4. npm start
+>		1. localhost:3000
+>	5. npm run build
+>	6. npm run eject
 >
 >#Day3
->	React(using es6) with webpack(using babel)
->	Multiple components
->	BidirectionalFlow
->	Router/ Single page application
->	Ajax (using axios)
->	React App
+>	1. React(using es6) with webpack(using babel)
+>	2. Multiple components
+>	3. BidirectionalFlow
+>	4. Router/ Single page application
+>	5. Ajax (using axios)
+>	6. React App
+>
+>
+##github location: 	https://github.com/arun31786/ust_react_07_2017
+##My Email:			java.kumar.arun@gmail.com

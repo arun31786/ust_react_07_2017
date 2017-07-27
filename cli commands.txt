@@ -1,3 +1,0 @@
-npm install -g create-react-app
-create-react-app hello-world
-npm start: 3000
